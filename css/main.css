@@ -1,0 +1,59 @@
+body {
+    margin:0%;
+    padding: 0%;
+    background-image:url(/images/voituregrise.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    backdrop-filter: saturate(0%);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+}
+.titre h1 {
+    font-size: xxx-large;
+    margin-bottom: 0;
+    line-height: 4.5rem;
+    text-align: center;
+}
+.titre span{
+    display: inline-block;
+    background: linear-gradient(to right, #4091ef,#0048ffd7,#0048ffd7  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main div h2 {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+@media all and (max-width: 830px){
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -60%);
+        
+    }
+    .titre h1 {
+        font-size: xx-large;
+    }
+}

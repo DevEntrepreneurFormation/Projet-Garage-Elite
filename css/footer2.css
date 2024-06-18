@@ -1,0 +1,111 @@
+footer {
+    background-color: #111;
+    display: flex;
+    color: white;
+    width: 100%;
+    bottom: 0%;
+}
+.photo {
+    width: 35%;
+    background-image: url(/images/garage-elite-logo-longuer.png);
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin-right: 140px;
+    position: relative;
+    top: 17%;
+    right: -3%;
+}
+footer div img {
+    height: 150px;
+    width: 150px;
+}
+.footerglobal {
+    display: flex;
+    width: 100%;
+    font-size: small;
+    font-weight: 400;
+}
+.rigth {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.infos {
+    display: flex;
+    gap: 7rem;
+}
+.infos div h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight:400;
+    margin-bottom: 0;
+}
+.lieux {
+    display: flex;
+    flex-direction: column;
+    
+}
+.villes {
+    display: flex;
+    gap: 20px;
+}
+.villes ul {
+    padding-left: 0 ;
+}
+.villes li {
+    list-style: none;
+}
+.résauxmention {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reseaux {
+    gap: 30px;
+    display: flex;
+}
+
+@media all and (max-width: 1100px){
+    .rigth {
+        font-size: x-small;
+    }
+    .infos{
+        gap: 1rem;
+    }
+}
+/* Screen for a litle laptop  */
+@media all and (max-width: 1100px){
+    .rigth {
+        font-size: x-small;
+    }
+    .infos{
+        gap: 1rem;
+    }
+}
+/* Screen for tablette */
+@media all and (max-width: 830px){
+    .rigth {
+        font-size: x-small;
+        flex-direction: column;
+    }
+    .photo{
+        margin-right: 0;
+    }
+
+}
+/* Screnn for mobile  */
+@media all and (max-width: 540px){
+    .rigth {
+        font-size: x-small;
+        flex-direction: column;
+    }
+    .photo{
+        display: none
+    }
+
+}

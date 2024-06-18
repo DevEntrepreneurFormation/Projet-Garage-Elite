@@ -1,0 +1,142 @@
+body {
+    margin:0%;
+    padding: 0%;
+}
+.titlePrestations {
+    background-color: #6AA7EE;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.titlePrestations h1 {
+    margin: 0;
+    padding: 1rem;
+    
+}
+.titleUnderTitle {
+    display: flex;
+    padding: 1rem;
+}
+/* Section Prestation  */
+.prestationsAtelier {
+    background-color: #111111;
+    color: white;
+    justify-content: flex-start;
+    padding-left: 5rem;
+}
+.prestationsAtelierGlobal {
+    display: flex;
+    background-color: #111111;
+    color: white;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.imageMecano img {
+    width: 500px;
+    height: 260px;
+}
+/* Section Entretient */
+.premiumTitle{
+    display: flex;
+    justify-content: center;
+    background-color: #6AA7EE;
+}
+.premiumGlobal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15rem;
+    background-color: #6AA7EE;
+    height: 300px;
+    
+}
+
+/* Section Pneus */
+.pneuTitle {
+    background-color: #111111;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    padding-right: 10rem;
+}
+.pneuGlobal {
+    display: flex;
+    background-color: #111111;
+    color: white;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+.infosPneu {
+   width: 30%;
+}
+
+.imagePneu {
+    
+    width: 35%;
+    background-image: url(/images/pneu.jpg);
+    height: 235px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;   
+}
+
+/* Contact */
+
+.contactTitle {
+    display: flex;
+    justify-content: center;
+    background-color: #6AA7EE;
+}
+.formulaire {
+    background-color: #6AA7EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    background-color: #6AA7EE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+.nameFild {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nameFild div {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 6px;
+}
+input {
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid #6AA7EE;
+}
+input:focus {
+    border: 1px solid #111111;
+}
+textarea {
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid #6AA7EE;
+}
+textarea:focus {
+    border: 1px solid #111111;
+}
+.btnSubmit {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,93 @@
+
+header {
+    display: flex;
+    background-color: #111111;
+    color: white;
+    align-items: center;
+    width: 100%;
+}
+/* Gestion de l'image */
+header img{
+    height: 125px;
+    width: 125px;
+}
+header .logo {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    
+}
+/* Gestion de la naviigation  */
+.general-rigth{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+header div ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size:medium;
+}
+
+.select ul a {
+    text-decoration: none;
+    color: white;
+    
+}
+.select ul a:focus {
+    text-decoration:underline;
+    color: white;
+}
+.select ul a:visited {
+    text-decoration: none;
+    color: white;
+}
+.select ul a:hover {
+    text-decoration: underline;
+}
+.select ul a:active {
+    text-decoration:underline
+}
+
+header .button {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+/* Litle laptop Media querries  */
+@media all and (max-width: 1130px){
+    header div ul {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+    }
+}
+/* Tablette Media querries  */
+@media all and (max-width: 830px){
+   .general-rigth{
+    font-size: xx-small;
+   }
+   header div ul{
+    font-size: small;
+    gap: 15px;
+}
+
+}
+/* Mobile Media querries  */
+@media all and (max-width: 640px){
+   header .button {
+        display: none;
+    }
+    header .logo {
+        width: 30%;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+ }
+ 
+
+
